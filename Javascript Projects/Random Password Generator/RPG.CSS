@@ -29,7 +29,7 @@ font-size: 4rem;
     border-bottom: 5px solid #40E0D0;
 }
 
-.passwordBox{
+.passwordContainer{
     background-color: #fff;
     width: 40%;
     border-radius: 7px;
@@ -39,7 +39,7 @@ font-size: 4rem;
     padding: 1rem 2.5rem;
 }
 
-.passwordBox input{
+.passwordContainer input{
      width: 100%;
      border: none;
      outline: none;
@@ -61,9 +61,19 @@ font-size: 4rem;
 }
 .generate-button{
     background-color: #2EC0F9;
+    transition: all 0.7s ease-in;
+}
+
+.generate-button:hover{
+    background-color: #63D2FF;
 }
 
 .copy-button{
   background-color: #648DE5;
   margin-left: 10px;
+  transition: all 0.7s ease-in-out;
+}
+
+.copy-button:hover{
+    background-color: #92BCEA;
 }
