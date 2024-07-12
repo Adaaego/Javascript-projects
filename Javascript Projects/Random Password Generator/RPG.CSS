@@ -12,5 +12,58 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.heading{
+color: #fff;
+font-size: 4rem;
+}
+
+.line-break{
+    color:#40E0D0 ;
+    border-bottom: 5px solid #40E0D0;
+}
+
+.passwordBox{
+    background-color: #fff;
+    width: 40%;
+    border-radius: 7px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+}
+
+.passwordBox input{
+     width: 100%;
+     border: none;
+     outline: none;
+     font-size: 2rem;
+     color: #333;
+}
+
+.btnContainer{
+    margin-top: 20px;
+}
+
+.btnContainer button{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+.generate-button{
+    background-color: #2EC0F9;
+}
+
+.copy-button{
+  background-color: #648DE5;
+  margin-left: 10px;
 }
